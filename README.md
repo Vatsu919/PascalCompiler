@@ -1,4 +1,4 @@
-# PascalCompiler
+# PascalParser
 
 To compile the files run the following command:
     ```
