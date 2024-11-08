@@ -1,7 +1,9 @@
 # PascalCompiler
 
 To compile the files run the following command:
-    `make`
+    ```
+    make
+    ```
     
 This will generate an ./output file which can be run using the following command:
     `./output`
@@ -26,6 +28,8 @@ The following semantic errors have been incorporated in the input file:
 
 ## ****In case the makefile does not work****
 Run the following commands on the command prompt:
+```
     yacc -d 180101088.y 
     lex 180101088.l
     gcc y.tab.c lex.yy.c -o output
+```
